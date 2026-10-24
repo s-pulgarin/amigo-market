@@ -1,4 +1,4 @@
-package com.tuapp.ui.components
+package co.edu.amigo.market.ui.components
 
 import androidx.compose.foundation.layout.size
 import androidx.compose.material.icons.Icons
