@@ -14,16 +14,17 @@ import androidx.compose.material3.NavigationBarItem
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import co.edu.amigo.market.ui.navigation.Routes
 
 /**
  * Representa cada destino de la barra de navegación inferior.
- * El "route" debe coincidir con la ruta usada en el NavHost del proyecto.
+ * Usa las constantes de [Routes] para que coincida con el NavHost.
  */
 enum class BottomBarDestination(val route: String, val label: String) {
-    Inicio(route = "inicio", label = "Inicio"),
-    Negocios(route = "negocios", label = "Negocios"),
-    Carrito(route = "carrito", label = "Carrito"),
-    Perfil(route = "perfil", label = "Perfil")
+    Inicio(route = Routes.HOME, label = "Inicio"),
+    Negocios(route = Routes.BUSINESSES, label = "Negocios"),
+    Carrito(route = Routes.CART, label = "Carrito"),
+    Perfil(route = Routes.PROFILE, label = "Perfil")
 }
 
 /**
