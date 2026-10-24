@@ -61,7 +61,7 @@ fun SearchScreen(cartVm: CartViewModel, onBusinessClick: (String) -> Unit) {
         )
 
         when {
-            query.isBlank() -> MessageBox("Escribe el nombre de un producto")
+            query.isBlank() -> MessageBox("Escribe el nombre de un producto para buscar")
             results.isEmpty() -> MessageBox("Sin resultados")
             else -> LazyColumn(
                 modifier = Modifier.padding(top = 12.dp),
