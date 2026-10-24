@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/amigo-market.iml" filepath="$PROJECT_DIR$/.idea/amigo-market.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/amigo_market.iml" filepath="$PROJECT_DIR$/.idea/modules/amigo_market.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/amigo_market.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/amigo_market.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/amigo_market.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/amigo_market.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/amigo_market.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/amigo_market.app.unitTest.iml" />
     </modules>
   </component>
 </project>
