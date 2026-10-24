@@ -35,7 +35,7 @@ fun BusinessCard(business: Business, onClick: () -> Unit, modifier: Modifier = M
     ) {
         Column(
             modifier = Modifier.padding(16.dp),
-            verticalArrangement = Arrangement.spacedBy(4.dp)
+            verticalArrangement = Arrangement.spacedBy(6.dp)
         ) {
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Text(
