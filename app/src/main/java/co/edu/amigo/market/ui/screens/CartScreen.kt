@@ -1,10 +1,12 @@
 package co.edu.amigo.market.ui.screens
 
+import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import co.edu.amigo.market.ui.components.StubScreen
+import co.edu.amigo.market.viewmodel.CartViewModel
 
-// TODO: implementar CartScreen
 @Composable
-fun CartScreen(onBack: () -> Unit) {
-    StubScreen("Carrito", "Volver" to onBack)
+fun CartScreen(
+    cartVm: CartViewModel, onCheckout: () -> Unit
+) {
+    Text("TODO CartScreen")
 }

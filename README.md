@@ -23,4 +23,3 @@ co.edu.amigo.market/
 
 - `main` está protegida: todo cambio entra por Pull Request con al menos 1 aprobación.
 - Crea una rama por tarea: `feature/<codigo>-<descripcion>` (ej. `feature/E2-seed-data`).
-- Las pantallas en `ui/screens/` son stubs (`StubScreen`); reemplázalos con la implementación real.

@@ -1,18 +1,11 @@
 package co.edu.amigo.market.ui.navigation
 
-/** Rutas de navegación de la app. */
-sealed class Routes(val route: String) {
-    data object Login : Routes("login")
-    data object Home : Routes("home")
-    data object Cart : Routes("cart")
-    data object Profile : Routes("profile")
-    data object Publish : Routes("publish")
-
-    data object ProductDetail : Routes("product/{$ARG_PRODUCT_ID}") {
-        fun create(productId: String) = "product/$productId"
-    }
-
-    companion object {
-        const val ARG_PRODUCT_ID = "productId"
-    }
+object Routes {
+    const val LOGIN = "login"; const val HOME = "home"; const val BUSINESSES = "businesses"
+    const val BUSINESS_DETAIL = "business/{businessId}"; const val CART = "cart"
+    const val CHECKOUT = "checkout"; const val RESERVE = "reserve/{businessId}"
+    const val MY_RESERVATIONS = "reservations"; const val SEARCH = "search"
+    const val PROFILE = "profile"; const val ORDERS = "orders"
+    fun businessDetail(id: String) = "business/$id"
+    fun reserve(id: String) = "reserve/$id"
 }

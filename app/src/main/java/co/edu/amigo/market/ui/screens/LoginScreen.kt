@@ -1,10 +1,12 @@
 package co.edu.amigo.market.ui.screens
 
+import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import co.edu.amigo.market.ui.components.StubScreen
+import co.edu.amigo.market.viewmodel.SessionViewModel
 
-// TODO: implementar LoginScreen
 @Composable
-fun LoginScreen(onLoginSuccess: () -> Unit) {
-    StubScreen("Iniciar sesión", "Entrar" to onLoginSuccess)
+fun LoginScreen(
+    sessionVm: SessionViewModel, onLoginSuccess: () -> Unit
+) {
+    Text("TODO LoginScreen")
 }
